@@ -1,4 +1,5 @@
 import {useState} from "react";
+import {Link} from "react-router-dom";
 
 export default function DropdownButton() {
     const [aparece, setAparece] = useState(false)
@@ -16,9 +17,9 @@ export default function DropdownButton() {
             </button>
 
             <div className={`${aparece === true ? "block" : "hidden"}`}>
-                <a href="/sobre">Sobre mim</a>
-                <a href="/projetos">Projetos</a>
-                <a href="/contato">Contat</a>
+                <Link to="/Aboutme.jsx">Sobre mim</Link>
+                <Link to="/Projects.jsx">Projetos</Link>
+                <Link to="/Contact.jsx">Contat</Link>
             </div>
         </>
     )
