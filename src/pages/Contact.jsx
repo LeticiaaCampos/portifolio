@@ -1,14 +1,18 @@
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
+import Container from "../components/Container";
 
 export default function Contact() {
     return (
         <>
-            <Header/>
-            <h1>contato</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem dignissimos dolores eveniet fuga
-                fugiat, nihil possimus repudiandae vero voluptates.</p>
-            <Footer/>
+            <Container>
+                <Header />
+                <main className="bg-indigo-200">
+                    <h1>Contatos</h1>
+                    
+                </main>
+                <Footer />
+            </Container>
         </>
     )
 }
