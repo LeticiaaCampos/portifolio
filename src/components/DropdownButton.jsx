@@ -15,6 +15,7 @@ export default function DropdownButton() {
         <div className="flex items-center  gap-4">
            
             <div className={`${aparece === true ? "flex" : "hidden"} gap-4 `}>
+                <Link to="/">Home</Link>
                 <Link to="/Aboutme">Sobre mim</Link>
                 <Link to="/Projects">Projetos</Link>
                 <Link to="/Contact">Contato</Link>
