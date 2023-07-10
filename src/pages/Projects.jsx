@@ -8,9 +8,9 @@ export default function Projects() {
             <Container>
                 <Header />
                 <main className="bg-indigo-200">
-                    <h1>Meus projetos</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi autem dignissimos dolores eveniet fuga
-                fugiat, nihil possimus repudiandae vero voluptates.</p>
+                    <h1 className="text-3xl font-bold mb-4">Projetos</h1>
+
+                
                 </main>
                 <Footer />
             </Container>
