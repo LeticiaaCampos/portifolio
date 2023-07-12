@@ -1,6 +1,7 @@
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import Container from "../components/Container";
+import Card from "../components/Card"
 
 export default function Projects() {
     return (
