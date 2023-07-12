@@ -17,7 +17,7 @@ export default function Home() {
                             <h2 className="text-4xl font-bold mb-6">Letícia Antonini</h2>
                             <p className="text-lg font-bold mb-6">Sou uma estudante de programação</p>
                             <Link to="/Aboutme" className="inline-block bg-indigo-600 text-white font-bold py-2 px-4 rounded-md hover:bg-indigo-800">
-                                Vem me conhecer ^_^
+                                Vem me conhecer （⌒▽⌒)
                             </Link>
                         </div>
                         <img src={portfolioweb} className="ml-auto" />
